@@ -1,0 +1,319 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    text-decoration: none;
+}
+::-webkit-scrollbar {
+    width: 10px;
+    border-radius: 20px;
+    box-sizing: border-box;
+}
+  
+::-webkit-scrollbar-thumb {
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    background: #3c184ebe; 
+    scrollbar-width: 10px;
+    margin: 0;
+    box-shadow: 0.5px 0.5px 4px inset;
+}
+
+::-webkit-scrollbar-track-piece {
+    background: #cccccc80;
+    box-shadow: 0 0px 4px inset;
+    border-radius: 20px;
+}
+
+::-webkit-scrollbar-button {
+    display:  none;
+}
+
+
+.secao-banner {
+    width: 100%;
+    padding: 30px 80px 120px 80px;
+    background-image: url('img/banner-topo.jpg');
+    background-position: center;
+    background-size: cover;
+    border-bottom: 1px solid #3c184ebd;
+    box-shadow: 0.6px 0.8px 4px  #1f26879c ;
+
+}
+
+.logotipo {
+    max-width: 600px;
+    color: #3c184e;
+    padding:0px 0 20px 0;
+}
+
+
+.logo-p1 {
+    font-size: 50px;
+    margin: 0;
+    text-shadow: 0.6px 5px 3.5px  #1f26872f;
+    font-family: "Mochiy Pop One", sans-serif;
+    text-align: justify;
+    letter-spacing: 0.8px;
+    padding-left: 20px;
+    
+   
+}
+
+.logo-p1 img {
+    width: 45px;
+    margin-right: 7px;
+    filter: drop-shadow( 1.5px 1.5px 3px  #1f268744);
+    
+    
+}
+.logo-p2 {
+    font-size: 25px;
+    font-weight: 600;
+    text-align: justify;
+    margin: 0;
+    text-shadow: 0.8px 0.8px 4px  #1f268738;
+    padding-left: 20px;
+}
+
+.caixa-banner {
+    max-width: 1024px;   
+    border-radius: 10px;
+    padding: 39px;
+    margin: 70px auto 0 auto;
+    background: #ffffffc4;
+    box-shadow: 0 8px 32px #1f26875e;
+    
+}
+
+.caixa-banner h1 {
+    color: #3c184e;
+    font-size: 60px;
+    text-align: center;
+    font-weight: 800;
+    margin: 0 0 40px 0;
+
+}
+
+.caixa-banner p {
+    width: 200px;
+    padding: 10px 25px;
+    margin: 0 auto 0 auto;
+    background: #3c184e;
+    font-size: 20px;
+    text-align: center;
+    border-radius: 10px;
+    border: 1px solid #141eaab2 ;
+    box-shadow: 0.1em 0.1em 0.2em #0000005c;
+}
+
+.caixa-banner a {
+    color: #ffff;
+}
+
+.caixa-banner p:hover {
+    background: #141eaab2 ;
+    border: 1px solid #3c184e;
+    
+}
+
+
+
+.caixa-banner img {
+    width: 20px;
+    margin-left: 5px;
+}
+
+
+.secao-servicos {
+    padding: 60px 80px 120px 80px;
+    width: 100%;
+}
+
+.secao-servicos h3 {
+    color: #3c184e;
+    text-align: center;
+    margin: 0 0 45px 0;
+    font-weight: bold;
+    letter-spacing: 1.5px;
+    font-size:xx-large;
+    font-family: "Mochiy Pop One", sans-serif;
+}
+
+.lista-servicos {
+    max-width: 880px;
+    color: #3c184e;
+    margin: 0 auto 50px auto;
+}
+
+.lista-servicos ul {
+    list-style-image:  url(img/patas1.png);
+    padding: 10px;
+}
+
+.lista-servicos li {
+    font-size: 22px;
+    margin: 0 0 20px 0;
+    line-height: 30px;
+    letter-spacing: 0.5px;
+}
+
+.lista-servicos span {
+    font-weight: 700;
+    font-style: italic;
+}
+
+.imagens-servicos {
+    max-width: 800px;
+    margin: 0 auto 0 auto;
+    text-align: center;
+}
+
+.imagens-servicos img {
+    border-radius: 7px;
+    border-style: none;
+    box-shadow: 3px 6px 8px 4px #0000005c;
+}
+
+
+.redes-sociais {
+    padding: 60px 80px 120px 80px;
+    text-align: center;
+    background:#3c184e;
+    border-top: 1px solid #3c184ebd;
+    border-bottom: 2px solid #3c184ebd;
+    box-shadow: 0.6px 0.8px 3px 2px #181d699c
+}
+
+.redes-sociais p {
+    max-width: 800px;
+    margin: 0 auto 50px auto;
+    font-size: 40px;
+    color: #fff;
+    text-align: center;
+    font-family: "Mochiy Pop One", sans-serif;
+    letter-spacing: 1px;
+}
+
+.redes-sociais span {
+    font-weight: 700;
+    font-style: italic;
+    font-family: "Mochiy Pop One", sans-serif;
+    letter-spacing: 3px;
+    color:  #abaef5;
+}
+
+.redes-sociais a {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.redes-sociais img {
+    width: 50px;
+    height: 50px;
+}
+
+.secao-marcas {
+    width: 100%;
+    padding: 60px 80px 120px 80px;
+    text-align: center;
+
+}
+
+.secao-marcas h3 {
+    font-size: 36px;
+    color: #3c184e;
+    font-family: "Mochiy Pop One", sans-serif;
+    letter-spacing: 1px;
+    text-align: center;
+    margin: 0 0 45px 0;
+}
+
+.marcas {
+    max-width: 800px;
+    margin: 0 auto 0 auto;
+}
+
+
+.marcas img {
+    width: 148px;
+    height: 148px;
+    margin: 0 15px 0 15px;
+}
+
+.onde-estamos {
+    width: 100%;
+    padding: 60px 80px 120px 80px;
+    text-align: center;
+}
+
+.onde-estamos h3 {
+    font-size: 36px;
+    color: #3c184e;
+    text-align: center;
+    font-family: "Mochiy Pop One", sans-serif;
+    letter-spacing: 1px;
+    margin: 0 0 45px 0;
+}
+
+.onde-estamos p {
+    font-size: 25px;
+    color: #3c184e;
+    text-align: center;
+    margin: 0 0 15px 0;
+}
+.onde-estamos img {
+    display: inline;
+    width: 25px;
+    margin-bottom: 25px;
+}
+
+.onde-estamos iframe {
+    width: 800px;
+    height: 450px;
+    border-radius: 10px;
+    box-shadow: 0.8px 1px 10px 1px #1f26879c
+    
+}
+
+.secao-rodape {
+    width: 100%;
+    padding: 10px 0 10px 0;
+    background: #3c184e;
+    border-top: 1px solid #14061bd7;
+    box-shadow: -0.7px -0.5px 6px 1px #181d699c;
+}
+
+.secao-rodape span {
+    font-family: "Satisfy", cursive;
+    letter-spacing: 1px;
+    font-size: 23px;
+    color: #fff;
+}
+
+.secao-rodape p {
+    font-family:Tahoma;
+    color: #cbcdff;
+    font-size: 17px;
+    text-align: center;
+    padding: auto 50px;
+    box-sizing: border-box;
+    letter-spacing: 1px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
